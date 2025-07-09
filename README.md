@@ -8,12 +8,26 @@ Built using **Python**, **pandas**, **scikit-learn**, and **Streamlit** — this
 
 ---
 
-## 📊 Features
+## 📌 Project Overview
 
-- Predict used car prices instantly based on user input
-- Intuitive interface with dropdowns, sliders, and buttons
-- Linear Regression model trained on real-world automotive data
-- Clean and minimal UI using Streamlit
+This project demonstrates the end-to-end process of a real-world machine learning workflow:
+- Data preprocessing & cleaning  
+- Exploratory Data Analysis (EDA)  
+- Linear Regression model training  
+- One-hot encoding for categorical features  
+- Real-time prediction through an interactive UI
+
+The goal is to provide users with an intuitive way to estimate the price of a used car using only basic information.
+
+---
+
+## 🧠 Features
+
+-  Clean, responsive UI built with Streamlit  
+-  Dropdowns and sliders for live input of car specs  
+-  Real-time price prediction  
+-  Model trained on real-world automotive data  
+-  Fully deployed and shareable app
 
 ---
 
@@ -32,25 +46,21 @@ Built using **Python**, **pandas**, **scikit-learn**, and **Streamlit** — this
 
 ## 🧠 ML Model
 
-- **Model Used:** Linear Regression
-- **Libraries:** `scikit-learn`, `pandas`, `numpy`
-- Preprocessing:
-  - Dropped nulls
-  - Removed irrelevant columns like `Model`
-  - Applied one-hot encoding to categorical variables
+- **Algorithm:** Linear Regression
+- **Libraries Used:**
+  - `pandas`
+  - `numpy`
+  - `scikit-learn`
+  - `seaborn`
+  - `matplotlib`
+  - `streamlit`
 
 ---
 
-## 🚀 Run Locally
+## 🧩 Future Enhancements
 
-```bash
-# Clone the repository
-git clone https://github.com/AadilKumshi/car-price-prediction.git
-cd car-price-prediction
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the app
-streamlit run app.py
+- Add support for other models (Random Forest, XGBoost)
+- Display model evaluation metrics (R², MAE, RMSE)
+- Visualize feature importance using SHAP
+- Allow CSV upload for batch predictions
 
