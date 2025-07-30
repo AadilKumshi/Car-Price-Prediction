@@ -6,9 +6,9 @@ An interactive machine learning app that predicts the **selling price of a used 
 
 Built using **Python**, **pandas**, **scikit-learn**, and **Streamlit** — this end-to-end project demonstrates real-world ML deployment and user-facing interface design.
 
----
 
-## 📌 Project Overview
+
+##  Project Overview
 
 This project demonstrates the end-to-end process of a real-world machine learning workflow:
 - Data preprocessing & cleaning  
@@ -19,9 +19,9 @@ This project demonstrates the end-to-end process of a real-world machine learnin
 
 The goal is to provide users with an intuitive way to estimate the price of a used car using only basic information.
 
----
 
-## 🧠 Features
+
+##  Features
 
 -  Clean, responsive UI built with Streamlit  
 -  Dropdowns and sliders for live input of car specs  
@@ -29,7 +29,7 @@ The goal is to provide users with an intuitive way to estimate the price of a us
 -  Model trained on real-world automotive data  
 -  Fully deployed and shareable app
 
----
+
 
 ## 📂 Dataset
 
@@ -42,9 +42,9 @@ The goal is to provide users with an intuitive way to estimate the price of a us
   - `Year`
   - `Mileage`
 
----
 
-## 🧠 ML Model
+
+##  ML Model
 
 - **Algorithm:** Linear Regression
 - **Libraries Used:**
@@ -55,9 +55,9 @@ The goal is to provide users with an intuitive way to estimate the price of a us
   - `matplotlib`
   - `streamlit`
 
----
 
-## 🧩 Future Enhancements
+
+##  Future Enhancements
 
 - Add support for other models (Random Forest, XGBoost)
 - Display model evaluation metrics (R², MAE, RMSE)
