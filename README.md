@@ -31,7 +31,7 @@ The goal is to provide users with an intuitive way to estimate the price of a us
 
 
 
-## 📂 Dataset
+##  Dataset
 
 - Source: `carproject.csv` (used car dataset)
 - Features used:
